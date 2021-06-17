@@ -61,12 +61,12 @@ const Dropdown = (props) => {
                     console.log('dropdown clicked.')
                     setOpen(!open)
                 }}
-                    className={`ui selection dropdown ${open == true ? 'visible active' : ''}`}
+                    className={`ui selection dropdown ${open === true ? 'visible active' : ''}`}
                 // className="ui selection dropdown visible active"
                 >
                     <i className="dropdown icon"></i>
                     <div className="text">{props.selected.label}</div>
-                    <div className={`menu ${open == true ? 'visible transition' : ''}`}>
+                    <div className={`menu ${open === true ? 'visible transition' : ''}`}>
                         {renderedOptions}
                     </div>
                 </div>

@@ -42,7 +42,7 @@ const App = () => {
     label: "Red",
     value: "red",
   });
-  const [dropdownDisplay, setDropdownDisplay] = useState(true);
+  // const [dropdownDisplay, setDropdownDisplay] = useState(true);
   return (
     <div>
       <Header />

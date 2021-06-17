@@ -4,7 +4,7 @@ import axios from 'axios';
 const SearchSection = () => {
     const [term, setTerm] = useState('');
     const [results, setResults] = useState([]);
-    const Api_URL = 'https://en.wikipedia.org/w/api.php?format=json&list=search&action=query&origin=*&srsearch='
+    // const Api_URL = 'https://en.wikipedia.org/w/api.php?format=json&list=search&action=query&origin=*&srsearch='
 
 
     const onInputChange = (event) => {
